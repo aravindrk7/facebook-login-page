@@ -1,0 +1,188 @@
+@font-face {
+font-family: luci;
+
+src: url("luci.ttf");
+}
+@font-face {
+font-family: helvi;
+
+src: url("helvi.ttf");
+}
+*{
+	font-family: luci;
+}
+body{
+	margin : 0;
+	padding: 0;
+}
+header{
+	margin: 0;
+	padding: 0;
+	height: 82px;
+	color :#fff;
+	border-bottom: solid 0.01cm	 black;
+	background-color: #3b5998;
+}
+.container{
+	margin-left: 185px;
+	margin-right: 185px;
+}
+header span{
+	font-family: helvi;
+	position: absolute;
+	font-size: 41px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+header form{
+	float: right;
+	display: grid;
+	grid-template-columns: 40% 40% 20%;
+	grid-column-gap: 13px;
+}
+form label{
+	letter-spacing: .1px;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-bottom: 5px;
+    font-weight:100;
+}
+form h6{
+	margin-top: 5px;
+	letter-spacing: .1px;
+	color:rgba(200,200,200,.8);
+	font-size: 11px;
+	font-weight:100;
+}
+header .email,.password{
+	width: 150px;
+	height: 20px;
+	border:solid .01cm #293e6a;
+}
+.btn{
+	width: 49px;
+	font-size: 11px;
+	font-weight: bold;
+	background-color:#4c70ba;
+	border-radius: 2px;
+	color: #fff;	
+	border:solid 1px #293e6a;
+}
+section{
+	background: linear-gradient(#ffffff, #c4cde0);
+	height: 100vh;
+}
+section span{
+	position: absolute;
+	font-weight: bold;
+	margin-top: 15px;
+	color :#293e6a;
+}
+section h1{
+	position: absolute;
+	margin-top: 10px;
+	font-family: helvi;
+	font-size: 37px;
+	letter-spacing: .5px;
+	color: rgba(0,0,0,.8);
+}
+section h6{
+	position: relative;
+	font-size: 18px;
+	margin-top: 60px;
+	font-weight: 500;
+	color: rgba(0,0,0,.8);
+}
+.sectionDiv{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap:80px; 	
+}
+.sectionDiv .info span{
+	font-size: 20px;
+	line-height: 28px;
+}
+.sectionDiv .formDiv{
+	margin-right: 90px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+.sectionDiv .formDiv form{
+	margin-top: -20px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+.sectionDiv .formDiv form .Mob{
+	grid-column:1/3;
+}
+.sectionDiv .formDiv form .Npassword
+{
+	grid-column: 1/3;
+}
+select{
+	margin-top: -10px;
+	width: 60px;
+	height: 30px;
+}
+.sectionDiv .formDiv form .fname,.Sname,.Mob,.Npassword{
+	height: 35px;
+	font-size: 18px;
+	letter-spacing:-1px;
+	border-radius: 5px;
+	outline: none;
+	border:solid 1px #c4cde0;
+	padding-left: 5px;
+
+}
+::placeholder{
+	color:rgba(150,150,150,1);
+}
+.radioDiv{
+	margin-top: -20px;
+}
+.sectionDiv .formDiv form h5{
+	margin-top: -3px;
+	font-size: 11px;
+	margin-left: -3px;
+	width: 80%;
+	color:#4c70ba;
+}
+.sectionDiv .formDiv form label{
+	font-size: 18px;
+}
+.sectionDiv .formDiv form p{
+	grid-column:1/3;
+	font-size: 10px;
+	color:rgba(110,110,110,1);
+	margin-top: -10px;
+	width: 80%;
+}
+.sectionDiv .formDiv form .button{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	background:#59983b;
+	border:solid 1px rgba(0,0,0,.5);
+	box-shadow: inset .5px .5px 1px white;
+	text-shadow: .5px .5px 2px black;
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+}
+.sectionDiv .formDiv form h4{
+	grid-column:1/3;
+	font-size: 13px;
+	color:rgba(110,110,110,1);
+}
+img{
+	width: 540px;
+	height: 190px;
+	margin-top: 80px;
+}
+samp{
+	color:#4c70ba;
+}
